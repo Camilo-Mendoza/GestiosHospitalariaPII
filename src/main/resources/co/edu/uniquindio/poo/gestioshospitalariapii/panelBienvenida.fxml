@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.poo.gestioshospitalariapii.PanelBienvenida">
+   <children>
+      <SubScene height="300.0" layoutX="50.0" layoutY="50.0" width="300.0">
+        <root>
+          <Region />
+        </root>
+      </SubScene>
+      <SubScene height="27.0" layoutX="120.0" layoutY="9.0" width="160.0">
+        <root>
+          <Region />
+        </root>
+      </SubScene>
+      <Text layoutX="170.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bienvenido" />
+      <Text layoutX="147.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Iniciar sesión como:" />
+      <Button fx:id="btn_Paciente" layoutX="167.0" layoutY="130.0" mnemonicParsing="false" onAction="#onPaciente" text="Paciente" />
+      <Button fx:id="btn_Doctor" layoutX="167.0" layoutY="200.0" mnemonicParsing="false" onAction="#onDoctor" prefHeight="27.0" prefWidth="66.0" text="Doctor" />
+      <Button fx:id="btn_Admin" layoutX="167.0" layoutY="276.0" mnemonicParsing="false" onAction="#onAdmin" prefHeight="27.0" prefWidth="66.0" text="Admin" />
+   </children>
+</AnchorPane>

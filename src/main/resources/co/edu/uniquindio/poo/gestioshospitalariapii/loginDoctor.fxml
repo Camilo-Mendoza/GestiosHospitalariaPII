@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="350.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.poo.gestioshospitalariapii.LoginPaciente">
+   <children>
+      <SubScene height="40.0" layoutX="50.0" layoutY="14.0" width="200.0">
+         <root>
+            <Region />
+         </root>
+      </SubScene>
+      <SubScene height="250.0" layoutX="50.0" layoutY="75.0" width="200.0">
+         <root>
+            <Region />
+         </root>
+      </SubScene>
+      <Text layoutX="126.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Doctor" />
+      <TextField fx:id="txfield_IngresarEspecialidad" layoutX="70.0" layoutY="85.0" onAction="#onIngresarEspecialidad" promptText="Ingrese Especialidad" />
+      <TextField fx:id="txfield_ingresarId" layoutX="70.0" layoutY="135.0" onAction="#onIngresarId" promptText="ingrese id:" />
+      <Button fx:id="btn_Back" layoutX="50.0" layoutY="298.0" mnemonicParsing="false" onAction="#onBack" text="Back" />
+      <Button fx:id="btn_In" layoutX="203.0" layoutY="298.0" mnemonicParsing="false" onAction="#onIn" prefHeight="27.0" prefWidth="47.0" text="In" />
+   </children>
+</AnchorPane>

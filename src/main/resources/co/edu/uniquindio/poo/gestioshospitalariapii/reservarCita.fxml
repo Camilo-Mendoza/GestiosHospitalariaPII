@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.poo.gestioshospitalariapii.ReservarCita">
+   <children>
+      <SubScene height="250.0" layoutX="25.0" layoutY="25.0" width="350.0">
+        <root>
+          <Region />
+        </root>
+      </SubScene>
+      <Text layoutX="164.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reservar Cita" />
+      <TextField fx:id="txfield_IngresarIdDoctor" layoutX="120.0" layoutY="54.0" onAction="#onIngresarIdDoctor" promptText="Ingresar ID Doctor" />
+      <TextField fx:id="txfield_IngresarIdPaciente" layoutX="120.0" layoutY="123.0" onAction="#onIngresarIdPaciente" promptText="Ingresar ID Paciente" />
+      <TextField fx:id="txfield_IngresarFecha" layoutX="120.0" layoutY="193.0" onAction="#onIngresarFecha" promptText="     YY/MM/DD/HH/M" />
+      <Text layoutX="133.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="año/mes/dia/hora/minuto" />
+   </children>
+</AnchorPane>

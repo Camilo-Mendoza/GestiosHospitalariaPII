@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="220.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.poo.gestioshospitalariapii.PacienteCita">
+   <children>
+      <SubScene height="69.0" layoutX="62.0" layoutY="118.0" width="227.0">
+        <root>
+          <Region />
+        </root>
+      </SubScene>
+      <SubScene height="69.0" layoutX="62.0" layoutY="28.0" width="227.0">
+         <root>
+            <Region />
+         </root>
+      </SubScene>
+      <Button fx:id="btn_reservarCita" layoutX="93.0" layoutY="49.0" mnemonicParsing="false" onAction="#onReservarCita" prefHeight="27.0" prefWidth="165.0" text="Reservar Cita" />
+      <Button fx:id="btn_cancelarCita" layoutX="93.0" layoutY="139.0" mnemonicParsing="false" onAction="#onCancelarCita" prefHeight="27.0" prefWidth="165.0" text="Cancelar Cita" />
+   </children>
+</AnchorPane>
