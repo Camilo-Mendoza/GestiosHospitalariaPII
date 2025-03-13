@@ -8,7 +8,6 @@ import javafx.scene.text.Text;
 public class ListarCitasPorFechaViewController {
 
 
-
         @FXML
         private Text txt_Citas;
 
@@ -28,15 +27,10 @@ public class ListarCitasPorFechaViewController {
         private Button btn_Back;
 
         @FXML
-        void 003f69(
-    ActionEvent event) {
-
-        }
-
-        @FXML
         void onBack(ActionEvent event) {
 
         }
+
 
 
 

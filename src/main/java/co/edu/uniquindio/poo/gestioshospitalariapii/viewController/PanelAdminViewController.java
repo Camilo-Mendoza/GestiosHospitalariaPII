@@ -7,7 +7,6 @@ import javafx.event.ActionEvent;
 public class PanelAdminViewController {
 
 
-
         @FXML
         private Text txt_Pacientes;
 
@@ -39,11 +38,6 @@ public class PanelAdminViewController {
         private Button btn_registrarDoctor;
 
         @FXML
-        void 003f69(ActionEvent event) {
-
-        }
-
-        @FXML
         void onRegistrarPaciente(ActionEvent event) {
 
         }
@@ -72,6 +66,9 @@ public class PanelAdminViewController {
         void onCerrarSesion(ActionEvent event) {
 
         }
+
+
+
 
 
 

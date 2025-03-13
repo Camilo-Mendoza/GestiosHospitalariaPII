@@ -19,7 +19,7 @@
             <Region />
          </root>
       </SubScene>
-      <Text fx:id="txt_Hospital" fill="#003f69" layoutX="110.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hospital" textAlignment="CENTER" wrappingWidth="359.92919921875">
+      <Text fx:id="txt_Hospital" layoutX="110.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hospital" textAlignment="CENTER" wrappingWidth="359.92919921875">
          <font>
             <Font size="37.0" />
          </font>

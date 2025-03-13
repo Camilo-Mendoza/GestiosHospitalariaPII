@@ -9,6 +9,7 @@ import javafx.scene.text.Text;
 
 public class GestionarCitasViewController {
 
+
         @FXML
         private Text txt_Citas;
 
@@ -31,12 +32,6 @@ public class GestionarCitasViewController {
         private Button btn_Back;
 
         @FXML
-        void 003f69(
-    ActionEvent event) {
-
-        }
-
-        @FXML
         void onBack(ActionEvent event) {
 
         }
@@ -45,6 +40,9 @@ public class GestionarCitasViewController {
         void onListarCitas(ActionEvent event) {
 
         }
+
+
+
 
 
 }

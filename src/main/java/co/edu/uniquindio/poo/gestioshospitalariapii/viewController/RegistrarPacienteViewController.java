@@ -6,9 +6,6 @@ import javafx.scene.text.Text;
 import javafx.event.ActionEvent;
 public class RegistrarPacienteViewController {
 
-
-
-
         @FXML
         private Text txt_Paciente;
 
@@ -25,11 +22,6 @@ public class RegistrarPacienteViewController {
         private Button btn_Back;
 
         @FXML
-        void 003f69(ActionEvent event) {
-
-        }
-
-        @FXML
         void onBack(ActionEvent event) {
 
         }
@@ -43,7 +35,5 @@ public class RegistrarPacienteViewController {
         void onIDPaciente(ActionEvent event) {
 
         }
-
-
 
 }

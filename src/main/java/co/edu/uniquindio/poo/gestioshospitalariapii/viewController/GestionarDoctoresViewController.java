@@ -10,6 +10,7 @@ import javafx.scene.text.Text;
 public class GestionarDoctoresViewController {
 
 
+
         @FXML
         private TableColumn<?, ?> clm_ID;
 
@@ -26,15 +27,10 @@ public class GestionarDoctoresViewController {
         private Button btn_Back;
 
         @FXML
-        void 003f69(
-    ActionEvent event) {
-
-        }
-
-        @FXML
         void onBack(ActionEvent event) {
 
         }
+
 
 
 }
