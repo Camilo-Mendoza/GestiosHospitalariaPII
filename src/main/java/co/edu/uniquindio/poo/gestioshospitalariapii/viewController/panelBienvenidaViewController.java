@@ -5,6 +5,7 @@ import javafx.scene.control.Button;
 
 public class panelBienvenidaViewController {
 
+
     @FXML
     private Button btn_Paciente;
 

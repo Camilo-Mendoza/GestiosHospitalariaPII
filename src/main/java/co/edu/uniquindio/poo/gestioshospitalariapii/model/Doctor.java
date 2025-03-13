@@ -8,6 +8,7 @@ public class Doctor extends Persona {
         this.especialidad = especialidad;
     }
 
+    //
     public String getEspecialidad() {
         return especialidad;
     }

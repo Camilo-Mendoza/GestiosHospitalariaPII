@@ -1,30 +1,32 @@
 package co.edu.uniquindio.poo.gestioshospitalariapii.viewController;
+
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 
-public class LoginDoctorViewController {
+public class LoginAdminViewController {
+
 
 
         @FXML
-        private TextField txfield_ingresarId;
+        private TextField txfield_IngresarUsuario;
+
+        @FXML
+        private TextField txfield_ingresarContraseña;
 
         @FXML
         private Button btn_In;
 
         @FXML
-        private TextField txfield_IngresarEspecialidad;
-
-        @FXML
         private Button btn_Back;
 
         @FXML
-        void onIngresarEspecialidad(ActionEvent event) {
+        void onIngresarUsuario(ActionEvent event) {
 
         }
 
         @FXML
-        void onIngresarId(ActionEvent event) {
+        void onIngresarContraseña(ActionEvent event) {
 
         }
 
@@ -37,6 +39,7 @@ public class LoginDoctorViewController {
         void onIn(ActionEvent event) {
 
         }
+
 
 
 }

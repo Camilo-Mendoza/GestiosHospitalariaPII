@@ -11,6 +11,7 @@ public class HistorialMedico implements ClonarHistorialMedico {
         this.medicamentos = new ArrayList<>(medicamentos);
         this.enfermedades = new ArrayList<>(enfermedades);
     }
+    //
 
     public List<Medicamento> getMedicamentos() {
         return new ArrayList<>(medicamentos);

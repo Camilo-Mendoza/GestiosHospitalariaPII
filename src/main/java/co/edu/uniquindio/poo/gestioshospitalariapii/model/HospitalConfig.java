@@ -18,7 +18,7 @@ public  class HospitalConfig {
         return instancia;
     }
 
-
+    //
     public String getHorarioAtencio() {
         return horarioAtencio;
     }

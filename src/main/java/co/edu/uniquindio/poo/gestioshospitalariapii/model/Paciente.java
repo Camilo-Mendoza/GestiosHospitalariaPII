@@ -10,6 +10,7 @@ public class Paciente extends Persona implements ClonarPaciente {
         super(correo, edad, id, nombre, tel);
         this.historialMedico = historialMedico;
     }
+    //
 
     @Override
     public Paciente clonarPaciente() {

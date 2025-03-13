@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="351.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <SubScene height="44.0" layoutX="15.0" layoutY="14.0" width="570.0">
+         <root>
+            <Region />
+         </root>
+      </SubScene>
+      <SubScene height="254.0" layoutX="15.0" layoutY="71.0" width="570.0">
+         <root>
+            <Region />
+         </root>
+      </SubScene>
+      <Text fx:id="txt_Hospital" fill="#003f69" layoutX="110.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hospital" textAlignment="CENTER" wrappingWidth="359.92919921875">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Text>
+      <Text fx:id="txt_Pacientes" layoutX="63.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pacientes" />
+      <Separator layoutX="40.0" layoutY="90.0" prefHeight="17.0" prefWidth="433.0" />
+      <TableView layoutX="40.0" layoutY="107.0" prefHeight="200.0" prefWidth="220.0">
+        <columns>
+          <TableColumn fx:id="clm_Nombre" prefWidth="104.0" text="Nombre" />
+          <TableColumn fx:id="clm_ID" prefWidth="115.0" text="ID" />
+        </columns>
+      </TableView>
+      <Button fx:id="btn_palindromo" layoutX="273.0" layoutY="107.0" mnemonicParsing="false" onAction="#onPlindromo" prefHeight="27.0" prefWidth="125.0" text="Plindromo" />
+      <Button fx:id="btn_vocalesIguales" layoutX="273.0" layoutY="149.0" mnemonicParsing="false" onAction="#onVocalesIguales" prefHeight="27.0" prefWidth="125.0" text="2 vocales Iguales" />
+      <Button fx:id="btn_Back" layoutX="533.0" layoutY="294.0" mnemonicParsing="false" onAction="#onBack" text="Back" />
+   </children>
+</AnchorPane>

@@ -4,29 +4,42 @@ import javafx.scene.control.TextField;
 
 public class ReservarCitaViewController {
 
-        @FXML
-        private TextField txfield_IngresarFecha;
 
-        @FXML
-        private TextField txfield_IngresarIdDoctor;
 
-        @FXML
-        private TextField txfield_IngresarIdPaciente;
+                @FXML
+                private TextField txfield_IngresarFecha;
 
-        @FXML
-        void onIngresarIdDoctor(ActionEvent event) {
+                @FXML
+                private Button btn_back;
 
-        }
+                @FXML
+                private TextField txfield_IngresarIdDoctor;
 
-        @FXML
-        void onIngresarIdPaciente(ActionEvent event) {
+                @FXML
+                private TextField txfield_IngresarIdPaciente;
 
-        }
+                @FXML
+                void onIngresarIdDoctor(ActionEvent event) {
 
-        @FXML
-        void onIngresarFecha(ActionEvent event) {
+                }
 
-        }
+                @FXML
+                void onIngresarIdPaciente(ActionEvent event) {
+
+                }
+
+                @FXML
+                void onIngresarFecha(ActionEvent event) {
+
+                }
+
+                @FXML
+                void onBack(ActionEvent event) {
+
+                }
+
+
+
 
 
 

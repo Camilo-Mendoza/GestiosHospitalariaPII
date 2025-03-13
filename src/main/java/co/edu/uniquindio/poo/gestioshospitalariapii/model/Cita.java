@@ -20,7 +20,7 @@ public class Cita {
                 " el " + horaCita.toString();
 
     }
-
+//
     public Doctor getDoctorEncargado() {
         return doctorEncargado;
     }

@@ -98,6 +98,7 @@ public class Hospital {
         System.out.println("No se encontró la cita para cancelar.");
         return false;
     }
+    //
 
     // Listar citas por fecha
     public List<Cita> listarCitasPorFecha(LocalDateTime fecha) {

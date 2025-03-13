@@ -8,6 +8,7 @@ public class Medicamento {
         this.nombreMedicamento = nombreMedicamento;
         this.dosis = dosis;
     }
+    //
 
     public String getNombreMedicamento() {
         return nombreMedicamento;

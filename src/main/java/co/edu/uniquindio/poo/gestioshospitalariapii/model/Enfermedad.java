@@ -10,6 +10,7 @@ public class Enfermedad {
         this.nombreEnfermedad = nombreEnfermedad;
         this.fechaDiagnostico = fechaDiagnostico;
     }
+    //
 
     public String getNombreEnfermedad() {
         return nombreEnfermedad;
