@@ -2,6 +2,7 @@ package co.edu.uniquindio.poo.gestioshospitalariapii.viewController;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.text.Text;
+import javafx.event.ActionEvent;
 
 public class PanelAdminViewController {
 
